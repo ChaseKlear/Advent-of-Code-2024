@@ -1,5 +1,3 @@
-#[function for item in iterable if condition]
-
 with open("input.txt") as lists_raw:
     lists:str = lists_raw.read()
     lines:list[str] = lists.split("\n")
